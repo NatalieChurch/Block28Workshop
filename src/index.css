@@ -30,12 +30,28 @@ body > div {
 .red {
   background-color: #b05f6d;
   color: white;
+  border: solid, #61343c;
 }
 .blue {
   background-color: #275db3;
   color: white;
+  border: solid, #0e2346;
 }
 .home {
-  background-color: pink;
-  color: black;
+  background-color: rgb(221, 147, 159);
+  color: rgb(34, 27, 27);
+  border: solid, rgb(134, 92, 99);
+}
+.green {
+  background-color: rgb(76, 155, 89);
+  color: rgb(255, 255, 255);
+  border: solid, rgb(31, 58, 34);
+}.purple {
+  background-color: rgb(161, 114, 206);
+  color: rgb(255, 255, 255);
+  border: solid, rgb(60, 40, 77);
+}.orange {
+  background-color: rgb(202, 126, 81);
+  color: rgb(255, 255, 255);
+  border: solid, rgb(112, 72, 26);
 }
