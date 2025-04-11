@@ -34,6 +34,16 @@ function App() {
               <Route path="/" element={<Home/>}></Route>
           </Routes>
         </div>
+
+        <footer style={{padding: '1rem', backgroundColor: '#FFF080', textAlign: 'center'}}>
+            <Link to="/blue" style={{color: "black"}}>  Blue  </Link>
+            <Link to="/red" style={{color:"black"}}>  Red  </Link>
+            <Link to="/green" style={{color:"black"}}>  Green  </Link>
+            <Link to="/purple" style={{color:"black"}}>  Purple  </Link>
+            <Link to="/orange" style={{color:"black"}}>  Orange  </Link>
+            <Link to="/" style={{color:"black"}}>  Home  </Link>
+        </footer>
+
       </div>
     </>
   )
