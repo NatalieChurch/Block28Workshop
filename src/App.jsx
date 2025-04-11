@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Green from './components/Green';
 import Orange from './components/Orange';
 import Purple from './components/Purple';
+import NavBar from './components/Navbar';
 
 
 function App() {
